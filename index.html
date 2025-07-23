@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Park Heebum - Jr. Backend Developer</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #0f172a;
+      color: #cbd5e1;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 3rem auto;
+      padding: 2rem;
+    }
+
+    h1 {
+      color: #fff;
+      font-size: 2.5rem;
+      font-weight: 800;
+      margin-bottom: 0.5rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      color: #67e8f9;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .subtitle {
+      color: #22d3ee;
+      font-size: 1.2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    a {
+      color: #94a3b8;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #67e8f9;
+    }
+
+    .section {
+      background-color: rgba(30, 41, 59, 0.7);
+      border: 1px solid rgba(100, 116, 139, 0.3);
+      border-radius: 1rem;
+      padding: 1.5rem;
+      margin-top: 2rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    ul {
+      padding-left: 1.5rem;
+      line-height: 1.8;
+    }
+
+    .highlight {
+      color: #fff;
+      font-weight: bold;
+    }
+
+    .timeline {
+      border-left: 2px solid #475569;
+      padding-left: 1rem;
+      margin-top: 1rem;
+      position: relative;
+    }
+
+    .timeline::before {
+      content: '';
+      position: absolute;
+      top: 10px;
+      left: -10px;
+      width: 12px;
+      height: 12px;
+      background-color: #22d3ee;
+      border: 3px solid #0f172a;
+      border-radius: 50%;
+    }
+
+    .timeline .title {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: white;
+    }
+
+    .timeline .desc {
+      color: #94a3b8;
+      margin-top: 0.3rem;
+    }
+
+    .skills {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .pill {
+      background-color: rgba(51, 65, 85, 0.7);
+      padding: 0.8rem 1rem;
+      border-radius: 0.75rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .pill span {
+      padding: 0.3rem 0.6rem;
+      border-radius: 1rem;
+      font-size: 0.8rem;
+      font-weight: bold;
+    }
+
+    .blue { background-color: #3b82f6; color: white; }
+    .orange { background-color: #f97316; color: white; }
+    .green { background-color: #10b981; color: white; }
+    .purple { background-color: #8b5cf6; color: white; }
+
+    footer {
+      text-align: center;
+      color: #475569;
+      font-size: 0.85rem;
+      margin-top: 3rem;
+      border-top: 1px solid #334155;
+      padding-top: 1rem;
+    }
+
+    .label {
+      font-weight: bold;
+      margin-right: 0.5rem;
+      color: #cbd5e1;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Park Heebum</h1>
+    <p class="subtitle">Jr. Backend developer</p>
+    <div>
+      <p><span class="label">GitHub:</span>🔗 <a href="https://github.com/Peter-Park95">github.com/Peter-Park95</a></p>
+      <p><span class="label">Blog:</span>📘 <a href="https://programming-kitsune.tistory.com">programming-kitsune.tistory.com</a></p>
+      <p><span class="label">Instagram:</span>📷 <a href="https://instagram.com/baaams_park">@baaams_park</a></p>
+    </div>
+
+    <div class="section">
+      <h2>👤 About Me</h2>
+      <ul>
+        <li>1995년생</li>
+        <li>컴퓨터공학 전공</li>
+        <li>합정에서 지옥의 출퇴근 중...</li>
+        <li>현재 <span class="highlight">SSAFY 14기 12반</span>에서 폭풍 성장 중!</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>💼 Experience</h2>
+      <div class="timeline">
+        <p class="desc">약 2년</p>
+        <p class="title">백엔드 엔지니어</p>
+        <p class="desc">OTT 플랫폼 기업 ( wavveAmericas ) </p>
+        <p class="desc">Flask 서버개발, 앱 푸쉬 시스템 고도화, 앱 로그 분석 및 장애 대응 등의 업무 담당</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>💻 Skills</h2>
+      <div class="skills">
+        <div class="pill">
+          <span>Python</span>
+          <span class="blue">주언어</span>
+        </div>
+        <div class="pill">
+          <span>Java</span>
+          <span class="orange">매우 학습 중</span>
+        </div>
+        <div class="pill">
+          <span>MySQL</span>
+          <span class="green">경험</span>
+        </div>
+        <div class="pill">
+          <span>AWS, Docker</span>
+          <span class="green">경험</span>
+        </div>
+        <div class="pill">
+          <span>Front end</span>
+          <span class="green">가능..!</span>
+        </div>
+        <div class="pill">
+          <span>Team Collaboration</span>
+          <span class="purple">자신있음</span>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</body>
+</html>
